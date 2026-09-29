@@ -1,0 +1,35 @@
+{
+  "architecture": {
+    "hidden": [
+      256,
+      256,
+      128
+    ],
+    "activation": "ReLU",
+    "regularization": "none"
+  },
+  "regression": {
+    "name": "California Housing (r\u00e9gression)",
+    "task": "regression",
+    "loss": "MSE",
+    "n_train": 1875,
+    "n_val": 625,
+    "epochs": 120,
+    "train_loss_final": 0.11205938418706259,
+    "val_loss_final": 0.42619330234527586,
+    "gap_final": 0.3141339181582133,
+    "diverge_epoch_approx": 7
+  },
+  "classification": {
+    "name": "Breast Cancer (classification binaire)",
+    "task": "classification",
+    "loss": "BCEWithLogits",
+    "n_train": 426,
+    "n_val": 143,
+    "epochs": 120,
+    "train_loss_final": 1.9807985380635993e-05,
+    "val_loss_final": 0.20124312464173857,
+    "gap_final": 0.20122331665635793,
+    "diverge_epoch_approx": 6
+  }
+}
